@@ -28,7 +28,7 @@ public class TrialLogin {
     public void testLoginWithExcelData() throws Exception {
 
     	
-    	    String path = "C:\\Users\\DELL\\Desktop\\DataLogin.xlsx";
+    	    String path =   System.getProperty("user.dir")+"/src/test/resources/DataLogin.xlsx";
     	    FileInputStream fis = new FileInputStream(path);
     	    Workbook wb = WorkbookFactory.create(fis);
     	    Sheet sheet = wb.getSheet("SHEET3");
