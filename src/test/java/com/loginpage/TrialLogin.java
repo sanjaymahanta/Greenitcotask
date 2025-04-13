@@ -101,6 +101,6 @@ public class TrialLogin {
     	    wb.close();
 
     	    driver.quit();
-    	    System.out.println("✅ Test completed. Results written to Excel.");
+    	    System.out.println(" Test completed. Results written to Excel.");
     	}
 }
